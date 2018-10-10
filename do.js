@@ -1,4 +1,4 @@
-const auth_token = process.env.DO_TOKEN_CURRENT;
+const auth_token = process.env.DO_TOKEN_ABC;
 
 const DigitalOcean = require('do-wrapper').default,
     api = new DigitalOcean(auth_token, 1024);
@@ -6,7 +6,7 @@ const DigitalOcean = require('do-wrapper').default,
 console.log(" -- Retrieving account info. -- ");
 api.account((err, res, body) => {
   console.log(body);
-});
+}i);
 
 console.log("\n");
 console.log("\n");
@@ -26,7 +26,7 @@ configuration={
   "tags": [
     "web"
   ]
-}
+i}
 
 let id = null;
 

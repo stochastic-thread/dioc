@@ -1,2 +1,5 @@
 {
+  "dependencies": {
+    "do-wrapper": "^3.15.1"
+  }
 }
